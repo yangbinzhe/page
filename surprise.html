@@ -2,12 +2,13 @@
 <body>
 <img src="https://img.jvnan.com/allimg/161226/1FF1A04-12.gif" width="100%" hight="" onclick="peng()">
 <script>
-var msg = ["惊喜马上来","您再试试","火力值99%","继续，就要成功了！！"];
+var msg = ["惊喜马上来","您再试试","火力值99%，加油！！","继续，就要成功了！！"];
   function peng(){
     for(var i=0;i<msg.length;i++){
       if(!confirm(msg[i])){
         alert("来嘛，不要放弃！");
       }
+      if(i+1 = msg.length) i=0;
     }
   }
 </script>
